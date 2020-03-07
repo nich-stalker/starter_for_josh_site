@@ -1,0 +1,154 @@
+body {
+    font-size: 16px;
+    font-family: arial, sans-serif;
+}
+
+/*Changing font to arial and font size to 16*/
+
+
+
+.navbar {
+    font-size: 0.875em
+}
+
+/*Changing navbar font size to 14*/
+
+
+
+a {
+    color: #a99c9c;
+}
+
+/*Changing navbar font to white*/
+
+
+
+a:hover {
+    color: #ed7d1e;
+}
+
+/*Changing navbar font when mouse hovering over to orange*/
+
+
+
+.navbar-nav li a:hover {
+    background-color: transparent;
+}
+
+/*Removing the background colour change while in hover*/
+
+
+
+.navbar-brand {
+    font-size: 2.5em;
+    font-weight: bolder;
+    letter-spacing: -3px;
+}
+
+/*Changing Joshs name to 41px (which is 2.5 times bigger than 16px), making the font bold, and making the letter spacing -3px*/
+
+
+
+.orange {
+    color: darkorange;
+
+}
+
+/*Changing WHITKIN in the navbar to dark orange*/
+
+
+
+.navbar {
+    font-size: 0.875em;
+    margin-bottom: 0px;
+}
+
+/*Removing the margin in the navbar*/
+
+
+
+.navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+/*To make the mobile toggle at a small size stand out more*/
+
+
+
+
+.herobg {
+    background: url("images/header-bg.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+/*To make the background image cover teh entire div*/
+
+
+
+.herobg h1 {
+    float: right;
+    /*To float the text right*/
+    color: #ffff;
+    /*Change the text to white*/
+    width: 341px;
+    /*Change the H1 width so so text follows the design comp*/
+    font-size: 7.125em;
+    /*Changed font size to 114px*/
+    letter-spacing: -10px;
+    /*Change letter spacing*/
+    font-weight: 800;
+    /*Bold Font*/
+    line-height: 75%;
+    /*Change the line height*/
+    margin-top: 140px;
+    /*Change margin to fit the design comp*/
+    text-align: right;
+    padding-bottom: 10%;
+    /*add padding to bottom*/
+    font-family: 'Raleway', sans-serif;
+    /*change font to raleway*/
+}
+
+/*Change font and positioning of herobg h1*/
+
+
+
+.aboutbg {
+    background-color: #d9dade;
+
+}
+
+.aboutbg h2 {
+    font-size: 2.4em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+}
+
+.particle {
+
+    text-align: right;
+    margin-right: 150px;
+    font-size: 1.5em;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 0px;
+    padding-bottom: 40px;
+}
+
+.about-text {
+
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 1.8em;
+    line-height: 2em;
+    font-family: 'Raleway', sans-serif;
+}
+
+.blocker {
+
+    width: 133px;
+    height: 10px;
+    background-color: purple;
+    margin: auto;
+    margin-bottom: 40px;
+}
