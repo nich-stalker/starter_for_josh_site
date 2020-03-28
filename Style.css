@@ -193,11 +193,11 @@ h4 {
     font-size: 0.8em;
 }
 
-a.readmore {
-    display:block;
+.readmore {
     color: #a19ba6;
     font-size: 0.9em;
     margin-bottom: 40px;
+    display: block;
 }
 
 
