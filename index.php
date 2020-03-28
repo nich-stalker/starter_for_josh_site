@@ -28,7 +28,7 @@ wp_reset_query();?>
                 <div class="article-title text-center">
                     <h3>LATEST ARTICLES</h3>
                 </div>
-
+<div class="col-md-4 article-cent">
 <?php $post_id = 15;
 $queried_post = get_post($post_id);?>
 <?php echo get_the_post_thumbnail($queried_post, 'full', array('class' => 'img-responsive')); ?>
