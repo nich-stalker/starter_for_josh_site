@@ -21,20 +21,29 @@
         <div class="container">
             <div class="row">
                 <div class="article-title text-center">
-                    <h3>LATEST ARTICLES</h3>
+<h3 class="text-center article-title "><?php the_field('titleforarticles'); ?></h3>
                 </div>
 <div class="col-md-4 article-cent">
-<!--placeholder for col1-->
+<img class="img-responsive" alt=“portait” src="<?php the_field('articleimage'); ?>">
+<h4><?php the_field('articletitle'); ?></h4>
+<p><?php the_field('paragraphforaboutme'); ?> </p>
+<a href="<?php the_field('readmore'); ?>" class="readmore">CONTINUE READING</a>
                 </div>
                 <!--col-md-4-->
 
                 <div class="col-md-4 article-cent">
-<!--placeholder for col2-->
+<img class="img-responsive" alt=“portait” src="<?php the_field('articletwoimage'); ?>">
+<h4><?php the_field('articletwotitle'); ?></h4>
+<p><?php the_field('articletwoparagraph'); ?> </p>
+<a href="<?php the_field('articletworeadmore'); ?>" class="readmore">CONTINUE READING</a>
                 </div>
                 <!--col-md-4-->
 
                 <div class="col-md-4 article-cent">
-<!--placeholder for col3-->
+<img class="img-responsive" alt=“portait” src="<?php the_field('articlethreeimage'); ?>">
+<h4><?php the_field('articlethreetitle'); ?></h4>
+<p><?php the_field('articlethreeparagraph'); ?> </p>
+<a href="<?php the_field('articlethreereadmore'); ?>" class="readmore">CONTINUE READING</a>
                 </div>
                 <!--col-md-4-->
 
