@@ -65,13 +65,13 @@
         )); ?>
 </ul>
 
-                    </ul>
+                    
                 </div>
             </div>
         </nav>
 
 
-        <div class="container">
+        <div class="container animated fadeInRight">
             <h1><?php the_field('maintagline'); ?></h1>
         </div>
         <!--container-->
